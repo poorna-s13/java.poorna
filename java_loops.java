@@ -1,0 +1,10 @@
+package learn_java;
+
+public class java_loops {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
