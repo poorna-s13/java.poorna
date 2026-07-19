@@ -172,7 +172,150 @@ package poorna_java;
 				System.out.println(" odd:"+odd);
 				
 				
-//				7. sort an array ( ascending order )
+6. search an elements in array
+		
+//		int a[] = { 10, 20, 30, 40 };
+//		int search = 30;
+//		
+//		boolean found = false;
+//		
+//		for (int i=0; i<a.length; i++) {
+//			if(a[i]==search) {
+//				System.out.println(" elements found in index:"+i);
+//				found = true; 
+//				break;
+//			}
+//		}
+//		if(found) {
+//			System.out.println("element not found");
+//		}
+		
+//		7. sort in array(ascending order)
+		
+//		int b[] = { 5, 2, 8, 1, 9 };
+//		
+//		for(int i=0; i<b.length; i++) {
+//			for(int j=0; j<b.length; j++) {
+//				if(b[i]<b[j]) {
+//					int temp = b[i];
+//					
+//					b[i]=b[j];
+//					b[j]=temp;
+//				}
+//			}
+//		}
+//		System.out.println("sort in array:");
+//		
+//		for(int i=0; i<b.length; i++) {
+//			System.out.println(b[i]+" ");
+//		}
+		
+//		8. copy one array to another
+		
+//		int c[] = {10, 20, 30, 40 };
+//		int d[] = new int[c.length];
+//		
+//		for(int i=0; i<c.length; i++) {
+//			d[i] = c[i];
+//		}
+//		System.out.println(" copy array ");
+//		
+//		for(int i=0; i<d.length; i++) {
+//			System.out.println(c[i]+" ");
+//		}
+		
+//		9. find duplicate elements in array
+		
+//		int d[] = { 1, 2, 3, 2, 4, 5, 1};
+//		
+//		System.out.println(" duplicate elements: ");
+//		
+//		for(int i=0; i<d.length; i++) {
+//			for(int j=0; j<d.length; j++) {
+//				if(d[i]==d[j]) {
+//					System.out.println(d[i]+" ");
+//				}
+//			}
+//		}
+		
+//		10. merge two arrays 
+		
+		int a[] = { 1, 2, 3 };
+		int b[] = { 4, 5, 6 };
+		
+		int c[] = new int[a.length+b.length];
+		
+		for(int i=0; i<a.length; i++) {
+			c[i] = a[i];
+		}
+		for(int i=0; i<b.length; i++) {
+			c[a.length + i] = b[i];
+		}
+		System.out.println(" merge array :");
+		
+		for(int i=0; i<c.length; i++) {
+			System.out.println(c[i]+" ");
+		}
+		
+		
+//		11. second largest elements 
+		
+		int s[] = { 10, 50, 30, 20, 40 };
+		
+		for(int i=0; i<s.length-1; i++) {
+			for(int j=i+1; j<s.length; j++) {
+				if(s[i]>s[j]) {
+					int temp = s[i];
+					s[i] = s[j];
+					s[j] = temp;
+				}
+			}
+		}
+		System.out.println("second largest ="+ s[s.length-2]);
+		
+		
+//		12. frequency of each elements 
+		
+//		int f[] = { 1, 2, 2, 3, 1, 1 };
+//		
+//		for(int i=0; i<f.length; i++) {
+//			int count =0;
+//		
+//			for(int j=0; j<f.length; j++) {
+//				if(f[i] == f[j]) {
+//					count ++;
+//					f[j] = -1;
+//				}
+//			}
+//		}
+//         System.out.println(f[i]+" times ");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
+
 				
 				
 				
